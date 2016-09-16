@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @Component
 @RestController
 public class Greeter {
-	
+	// These values are pulled from GIT config 
 	@Value("${message.greeting}")
 	String greeting;
 	@Value("${server.port}")
